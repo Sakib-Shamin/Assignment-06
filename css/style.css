@@ -1,0 +1,256 @@
+/*Global CSS*/
+
+body
+{
+	margin: 25px;
+	font-weight: 300;
+	background: #ededed;
+	color: #333;
+}
+
+h2, p
+{
+	margin: 25px 0px 0px;
+}
+
+.all-sections
+{
+	padding: 50px 0px;
+}
+
+.home-section ,
+.about-section ,
+.portfolio-section ,
+.contact-section,
+.company-name:after 
+{
+	background: #fff;
+}
+
+.resume-section ,
+.journal-section 
+{
+	background: #fcfcfc;
+}
+
+.yellow-background
+{
+	background: #fff197;
+}
+
+.blue-texts,
+.active-section
+{
+	color: #072def;
+}
+
+.journal-texts
+{
+	border-bottom: 1px solid #eee
+}
+
+.active-section,
+input
+.journal-texts:hover
+{
+	border-bottom: 1px solid #fff197;
+}
+
+.first-line-of-the-section
+{
+	font-family: "Lora", sans-sarif;
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-family: "Lora", sarif;
+	font-weight: 400;
+}
+
+h1
+{
+	font-size: 60px;
+}
+
+h2
+{
+	font-size: 44px;
+}
+
+h3
+{
+	font-size: 28px;
+}
+
+h4
+{
+	font-size: 24px;
+}
+
+h5
+{
+	font-size: 18px;
+}
+
+h3, h4
+{
+	line-height: 48px;
+}
+
+h3,
+.progress-report
+{
+	margin: 70px 0px 0px;
+}
+
+.about-section-texts-left,
+.about-section-texts-right-top,
+.about-section-texts-right-bottom,
+.job-title p
+{
+	letter-spacing: 0.6px;
+}
+
+.about-section-texts-left,
+.about-section-texts-right-top,
+.about-section-texts-right-bottom,
+.progress-title,
+.job-title p
+{
+	font-family: "Work Sans", sans-sarif;
+	
+}
+
+
+/*About Section*/
+
+.about-section-texts-left,
+.about-section-texts-right-top,
+.about-section-texts-right-bottom
+{
+	line-height: 29px;
+	color: #222;
+}
+
+.about-section-texts-right-top
+{
+	margin: 80px 0px 0px;
+}
+
+.about-section-texts-right-bottom
+{
+	margin: 24px 0px 0px;
+}
+
+.progress-title,
+.percentage,
+.year
+{
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.progress-title
+{
+	color: #1d1d1d;
+}
+
+.percentage
+{
+	float: right;
+}
+
+.progress-status
+{
+	background: #eee;
+	height: 5px;
+	margin: 10px 0px 0px;
+}
+
+.progress-status div
+{
+	background: #fff197;
+	height: 100%;
+}
+
+.web-design-progress
+{
+	width: 90%;
+}
+
+.web-development-progress
+{
+	width: 83%;
+}
+
+.photography-progress
+{
+	width: 95%;
+}
+
+/*Resume Section*/
+
+.company-name,
+.job-title h3
+{
+	font-size: 22px;
+}
+
+.company-name,
+.year
+{
+	margin-left: -15px;
+}
+
+.year,
+.job-title p
+{
+	margin-top: 5px;
+}
+
+.job-title p
+{
+	line-height: 26px;
+}
+
+.job-title h3,
+.job-title p
+{
+	margin-left: 52px;
+}
+
+.company-name:after,
+.job-title:before
+{
+	content: " ";
+	position: absolute;
+}
+
+.company-name:after
+{
+	height: 16px;
+	width: 16px;
+	border: 2px solid #072def;
+	border-radius: 50%;
+	left: 95%;
+	top: 61%;
+}
+
+.recent-job:after
+{
+	background: #072def;
+}
+
+.job-title:before
+{
+	border-left: 2px solid #fff197;
+	height: 100%;
+	top: 58%;
+	right: 100%;
+}
+
+.first-job:before
+{
+	height: 40%;
+}
